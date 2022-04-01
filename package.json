@@ -1,0 +1,19 @@
+{
+  "name": "javascript-asincrono",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanMagos/javascript-asincrono.git"
+  },
+  "author": "Juan Magos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JuanMagos/javascript-asincrono/issues"
+  },
+  "homepage": "https://github.com/JuanMagos/javascript-asincrono#readme"
+}
