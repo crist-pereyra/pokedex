@@ -1,6 +1,7 @@
 import { setTypeClass } from './shared.js';
 import Chart from 'chart.js/auto';
 
+
 const modalElement = document.querySelector('#modal');
 const habilidades = [
   'Hp',
