@@ -60,7 +60,6 @@ function getPokemons() {
       })
     )
       .then((listaCompleta) => {
-        // console.log(listaCompleta);
         const htmlList = document.querySelector('#pokeList');
         htmlList.innerHTML = '';
         listaCompleta.forEach((pokemon) => {
@@ -73,7 +72,6 @@ function getPokemons() {
           </li>
           `;
           htmlList.innerHTML += htmlPokemon;
-          // console.log(pokemon);
         });
         const pokemonsAvatars = document.querySelectorAll('li');
         pokemonsAvatars.forEach((avatar) => {
