@@ -1,4 +1,4 @@
-import { setTypeClass, loader } from './shared.js';
+import { setTypeClass } from './shared.js';
 import { openModal } from './modal.js';
 import moment from 'moment';
 
@@ -16,7 +16,6 @@ nextButton.addEventListener('click', (event) => {
   event.preventDefault();
   if (offset < 1127) {
     offset += 16;
-    loader();
     getPokemons();
   }
 });
@@ -25,7 +24,6 @@ prevButton.addEventListener('click', (event) => {
   event.preventDefault();
   if (offset > 0) {
     offset -= 16;
-    loader();
     getPokemons();
   }
 });

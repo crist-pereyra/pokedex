@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800&display=swap');
 body {
-  background-color: rgb(65, 65, 65);
+  background-color: '#fefefe';
   color: rgb(255, 255, 255);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0%;
 }
 .container {
@@ -12,7 +13,7 @@ body {
 header {
   display: flex;
   flex-direction: column;
-  background-color: rgb(214, 82, 82);
+  background: linear-gradient(to right, #c31432, #240b36);
   color: rgb(255, 255, 255);
   margin: 0;
 }
@@ -48,6 +49,7 @@ li {
   flex-direction: column;
   margin-top: 10px;
   width: 160px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 li:hover {
@@ -55,10 +57,10 @@ li:hover {
 }
 
 .paginacion {
-  background-color: rgb(214, 82, 82);
+  background: linear-gradient(to right, #ed213a, #93291e); 
   border: none;
   border-radius: 15px;
-  box-shadow: 0 4px #999;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   color: rgb(255, 255, 255);
   font-size: 14px;
   font-weight: bold;
@@ -68,6 +70,7 @@ li:hover {
 }
 .paginacion:hover {
   background-color: rgb(208, 68, 68);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   /* color: rgb(214, 82, 82); */
 }
 .paginacion:active {
@@ -79,75 +82,75 @@ h4::first-letter {
 }
 
 .normal-type {
-  background-color: #a8a878;
+  background: linear-gradient(to right, #76b852, #8dc26f)
 }
 
 .fighting-type {
-  background-color: #c03028;
+  background: linear-gradient(to right, #ed213a, #93291e);
 }
 
 .flying-type {
-  background-color: #a890f0;
+  background: linear-gradient(to right, #f4c4f3, #fc67fa);
 }
 
 .poison-type {
-  background-color: #a040a0;
+  background: linear-gradient(to right, #ff00cc, #333399);
 }
 
 .ground-type {
-  background-color: #e0c068;
+  background: linear-gradient(to right, #ffb347, #ffcc33);
 }
 
 .rock-type {
-  background-color: #b8a038;
+  background: linear-gradient(to right, #d1913c, #ffd194);
 }
 
 .bug-type {
-  background-color: #a8b820;
+  background: linear-gradient(to right, #56ab2f, #a8e063);
 }
 
 .ghost-type {
-  background-color: #705898;
+  background: linear-gradient(to right, #ad5389, #3c1053);
 }
 
 .steel-type {
-  background-color: #b8b8d0;
+  background: linear-gradient(to right, #8e9eab, #eef2f3);
 }
 
 .fire-type {
-  background-color: #f08030;
+  background: linear-gradient(to right, #f12711, #f5af19);
 }
 
 .water-type {
-  background-color: #6890f0;
+  background: linear-gradient(to right, #00b4db, #0083b0);
 }
 
 .grass-type {
-  background-color: #78c850;
+  background: linear-gradient(to right, #11998e, #38ef7d);
 }
 
 .electric-type {
-  background-color: #f8d030;
+  background: linear-gradient(to right, #ffe259, #ffa751);
 }
 
 .psychic-type {
-  background-color: #f85888;
+  background: linear-gradient(to right, #ec008c, #fc6767);
 }
 
 .ice-type {
-  background-color: #98d8d8;
+  background: linear-gradient(to right, #b2fefa, #0ed2f7);
 }
 
 .dragon-type {
-  background-color: #7038f8;
+  background: linear-gradient(to right, #da22ff, #9733ee);
 }
 
 .dark-type {
-  background-color: #705848;
+  background: linear-gradient(to right, #1e130c, #9a8478); 
 }
 
 .fairy-type {
-  background-color: #ee99ac;
+  background: linear-gradient(to right, #fbd3e9, #bb377d);
 }
 
 .default-type {

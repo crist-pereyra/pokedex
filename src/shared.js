@@ -24,11 +24,3 @@ export const setTypeClass = (type) => {
     return `${type}-type`;
   }
 };
-
-export const loader = () => {
-  const pokeAvatar = document.querySelectorAll('li');
-  pokeAvatar.forEach((avatar) => {
-    avatar.classList.remove('fadeIn');
-    avatar.classList.add('fadeOut');
-  });
-};
